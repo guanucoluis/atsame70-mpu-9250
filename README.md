@@ -1,7 +1,3 @@
-# MPU-9250 Library
-This library was built to enable I2C communication with the InvenSense 9-axis MPU-9250 inertial measurement unit (IMU) from the Microchip ATSAME70 series microcontroller.
+# Librería MPU-9250
 
-***It is currently under active development. Consider it to be in an alpha state.***
-
-# Usage
-Copy the source files to your project directory and include the header where necessary to enable use of the library.
+Se realizarán modificaciones a la librería https://github.com/alexbennett/atsame70-mpu-9250 con el objetivo de adaptar el código a PLIB (http://www.microchip.com/SWLibraryWeb/product.aspx?product=PIC32%20Peripheral%20Library). La libería original está  escrita para freeRTOS y se pretende prescindir de la misma.
